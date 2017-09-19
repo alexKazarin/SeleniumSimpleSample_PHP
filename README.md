@@ -21,12 +21,12 @@
 ## Configuration
 * Create phpunit.cmd and add to system PATH for easy use
 [link](https://phpunit.de/manual/current/en/installation.html)
-> cd C:\phpunit-5.7
-> echo @php "%~dp0phpunit.phar" %* > phpunit.cmd
-> exit
+> cd C:\phpunit-5.7  
+> echo @php "%~dp0phpunit.phar" %* > phpunit.cmd  
+> exit  
 
 * Start selenium-server for Chrome
-java -Dwebdriver.chrome.driver=C:\webdriver\chromedriver.exe -jar C:\selenium-server-standalone-2.53.1.jar
+> java -Dwebdriver.chrome.driver=C:\webdriver\chromedriver.exe -jar C:\selenium-server-standalone-2.53.1.jar
 
 * Compile in repository composer.json (was taken from facebook/php-webdriver)
 > composer install
