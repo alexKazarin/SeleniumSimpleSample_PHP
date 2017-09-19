@@ -12,7 +12,7 @@
 [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * Load compatible with php 5.6 version of phpunit 5.7.21. Place under C:\phpunit-5.7
 [link](...)
-*(Check)*
+*To check, run*
 > C:\phpunit-5.7>php phpunit-5.7.21.phar --version  
 > PHPUnit 5.7.21 by Sebastian Bergmann and contributors.
 * Load chromedriver and add to PATH
