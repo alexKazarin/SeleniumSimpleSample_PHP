@@ -2,9 +2,15 @@
 namespace Facebook\WebDriver;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
+use Yandex\Allure\Adapter\Annotation\Title;
+use Yandex\Allure\Adapter\Annotation\Severity;
+use Yandex\Allure\Adapter\Model\SeverityLevel;
 
 require_once('vendor/autoload.php');
 
+/**
+ * @Title("Human-readable test class title")
+ */
 class TestTask extends \PHPUnit_Framework_TestCase {
 
     protected $webDriver;
@@ -23,6 +29,10 @@ class TestTask extends \PHPUnit_Framework_TestCase {
         $this->webDriver->quit();
     }
 	
+	/**
+     * @Title("Human-readable test method title")
+	 * @Severity(level = SeverityLevel::CRITICAL)
+     */
     public function testCheckVideoPreviewPic()
     {
         $this->webDriver->get($this->url);

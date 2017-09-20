@@ -1,0 +1,17 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Human-readable test method title",
+    "uid" : "2fd419073ba2606f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1505950297442,
+      "stop" : 1505950309456,
+      "duration" : 12014
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

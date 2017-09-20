@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Human-readable test method title",
+    "uid" : "2fd419073ba2606f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1505950297442,
+      "stop" : 1505950309456,
+      "duration" : 12014
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

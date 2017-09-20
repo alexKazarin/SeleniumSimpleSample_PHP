@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1505950297437" stop="1505950309457" version="1.4.0">
+  <name>Facebook\WebDriver\TestTask</name>
+  <title>Human-readable test class title</title>
+  <test-cases>
+    <test-case start="1505950297442" stop="1505950309456" status="passed">
+      <name>testCheckVideoPreviewPic</name>
+      <title>Human-readable test method title</title>
+      <labels>
+        <label name="severity" value="minor"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

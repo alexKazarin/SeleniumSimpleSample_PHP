@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Facebook\\WebDriver\\TestTask",
+    "children" : [ {
+      "name" : "testCheckVideoPreviewPic",
+      "uid" : "2fd419073ba2606f",
+      "parentUid" : "ce5a1e39e5e3018f2b00da3f8510f25f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1505950297442,
+        "stop" : 1505950309456,
+        "duration" : 12014
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ce5a1e39e5e3018f2b00da3f8510f25f"
+  } ]
+}

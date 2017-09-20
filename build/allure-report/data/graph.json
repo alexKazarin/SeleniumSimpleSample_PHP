@@ -1,0 +1,11 @@
+[ {
+  "uid" : "2fd419073ba2606f",
+  "name" : "Human-readable test method title",
+  "time" : {
+    "start" : 1505950297442,
+    "stop" : 1505950309456,
+    "duration" : 12014
+  },
+  "status" : "passed",
+  "severity" : "minor"
+} ]
