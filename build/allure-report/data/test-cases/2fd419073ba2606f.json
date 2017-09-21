@@ -1,0 +1,55 @@
+{
+  "uid" : "2fd419073ba2606f",
+  "name" : "Human-readable test method title",
+  "fullName" : "Facebook\\WebDriver\\TestTask.testCheckVideoPreviewPic",
+  "historyId" : "fa8181a6b8f0495e1baac3e5e326524e",
+  "time" : {
+    "start" : 1505950297442,
+    "stop" : 1505950309456,
+    "duration" : 12014
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "suite",
+    "value" : "Human-readable test class title"
+  }, {
+    "name" : "testClass",
+    "value" : "Facebook\\WebDriver\\TestTask"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCheckVideoPreviewPic"
+  }, {
+    "name" : "package",
+    "value" : "Facebook\\WebDriver\\TestTask"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "source" : "2fd419073ba2606f.json",
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

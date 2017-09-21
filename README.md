@@ -1,6 +1,4 @@
 # SeleniumSimpleSample_PHP
-## TODO: Add Allure support, organise PageObj structure
-
 ## Installation on Windows
 * Load and install 'php VC11 x64 Thread Safe'. Add to system PATH.
 [link](http://php.net/manual/ru/install.windows.legacy.index.php#install.windows.legacy.manual)
@@ -37,3 +35,11 @@
 
 * Run test
 > php C:\phpunit-5.7\phpunit-5.7.21.phar Test.php
+
+## Allure
+1. xml generated automatically after test run
+2. to generate allure report use allure-comandline [link](https://github.com/allure-framework/allure1/wiki#generating-a-report)
+
+![Generated report](https://github.com/alexKazarin/SeleniumSimpleSample_PHP/blob/allure/build/allure-example.jpg)
+
+## TODO: organize PageObj structure

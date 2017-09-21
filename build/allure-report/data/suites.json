@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Human-readable test class title",
+    "children" : [ {
+      "name" : "Human-readable test method title",
+      "uid" : "2fd419073ba2606f",
+      "parentUid" : "ad4520e03035b9d98e4936af7d8e3265",
+      "status" : "passed",
+      "time" : {
+        "start" : 1505950297442,
+        "stop" : 1505950309456,
+        "duration" : 12014
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad4520e03035b9d98e4936af7d8e3265"
+  } ]
+}
