@@ -13,36 +13,33 @@ require_once('vendor/autoload.php');
  */
 class TestTask extends \PHPUnit_Framework_TestCase {
 
-    protected $webDriver;
+	protected $webDriver;
 	protected $url = 'https://yandex.ru/video/';
 	
 	public function setUp()
-    {
-        $capabilities = DesiredCapabilities::chrome();
+	{
+		$capabilities = DesiredCapabilities::chrome();
 		$host = 'http://localhost:4444/wd/hub';
 		$this->webDriver = RemoteWebDriver::create($host, $capabilities);
 		$this->webDriver->manage()->window()->maximize();
     }
 
 	public function tearDown()
-    {
-        $this->webDriver->quit();
-    }
+	{
+		$this->webDriver->quit();
+	}
 	
 	/**
      * @Title("Human-readable test method title")
 	 * @Severity(level = SeverityLevel::CRITICAL)
      */
     public function testCheckVideoPreviewPic()
-    {
-        $this->webDriver->get($this->url);
-		// wait until the page is loaded
+	{
+		$this->webDriver->get($this->url);
+		// wait until the page is loaded and page title contains correct words
 		$this->webDriver->wait()->until(
 			WebDriverExpectedCondition::titleContains('Смотрите видео онлайн: сериалы, мультики, игры, клипы, фильмы на Яндексе')
 		);
-        // checking that page title contains correct words
-        $this->assertContains(
-			'Смотрите видео онлайн: сериалы, мультики, игры, клипы, фильмы на Яндексе', $this->webDriver->getTitle());
 		// write 'ураган' in the search box
 		$this->webDriver->findElement(WebDriverBy::cssSelector('.input__box-layout .input__control'))
 			->sendKeys('ураган');
