@@ -22,7 +22,7 @@ class TestTask extends \PHPUnit_Framework_TestCase {
 		$host = 'http://localhost:4444/wd/hub';
 		$this->webDriver = RemoteWebDriver::create($host, $capabilities);
 		$this->webDriver->manage()->window()->maximize();
-    }
+	}
 
 	public function tearDown()
 	{
@@ -30,10 +30,10 @@ class TestTask extends \PHPUnit_Framework_TestCase {
 	}
 	
 	/**
-     * @Title("Human-readable test method title")
+	 * @Title("Human-readable test method title")
 	 * @Severity(level = SeverityLevel::CRITICAL)
-     */
-    public function testCheckVideoPreviewPic()
+	 */
+	public function testCheckVideoPreviewPic()
 	{
 		$this->webDriver->get($this->url);
 		// wait until the page is loaded and page title contains correct words
@@ -67,6 +67,6 @@ class TestTask extends \PHPUnit_Framework_TestCase {
 			},
 			'Error: no preview pics in set time period!'
 		);
-    }    
+	}
 }
 ?>
